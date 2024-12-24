@@ -34,7 +34,7 @@ const Weather = ({ posts, current, location }) => {
           <h2 className='text-white text-xl mt-5 max-sm:text-lg'>
             Update as of : {location.localtime}
           </h2>
-          <div className='w-[500px] flex-wrap flex items-center justify-center gap-x-10 gap-y-3 max-[430px]:flex-col'>
+          <div className='w-[500px] flex-wrap flex items-center justify-center gap-x-10 gap-y-3 max-[430px]:flex-col max-sm:w-auto'>
             <span className='text-white max-sm:text-sm'>
               Feels Like {current?.feelslike_c}
             </span>

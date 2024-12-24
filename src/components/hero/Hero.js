@@ -18,7 +18,7 @@ const Hero = async () => {
   const post = await data.json()
 
   return (
-    <main className='w-full h-[900px] mt-20 p-5 flex flex-col gap-20 overflow-y-auto'>
+    <main className='w-full h-[900px] mt-20 p-5 flex flex-col gap-20 overflow-y-auto max-sm:p-3'>
       <Weather posts={posts} current={current} location={location} />
       <LgWeather post={post} />
     </main>

@@ -6,7 +6,7 @@ const LgWeather = ({ post }) => {
 
   return (
     <section className='w-full h-auto p-5'>
-      <div className='lg_weather container mx-auto h-auto border border-white flex gap-10 overflow-auto'>
+      <div className='lg_weather container mx-auto h-auto flex gap-10 overflow-auto'>
         {post?.forecast?.forecastday.map((day, index) => (
           <div
             key={index}

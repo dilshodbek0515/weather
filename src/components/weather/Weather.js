@@ -3,7 +3,7 @@ import React from 'react'
 
 const Weather = ({ current, location }) => {
   return (
-    <section className='container mx-auto border-2 border-white flex flex-col gap-20 items-center justify-center py-5'>
+    <section className='container mx-auto flex flex-col gap-20 items-center justify-center py-5'>
       <div className='flex flex-col items-center justify-center gap-10'>
         <div
           className='flex flex-col gap-5 items-center justify-center'
